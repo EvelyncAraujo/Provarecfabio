@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+<script>
+    /*
+    Problema: Peça para o programa perguntar para o usuário qual o assunto mais difícil da disciplina de Programação. Baseado nas respostas do usuário, apresente a respectiva mensagem:
+    - Se o usuário informar Variáveis e Operadores (VO), o programa apresentará a mensagem "Primeiro";
+    - Se o usuário informar Variáveis e Operadores (VO), o programa apresentará a mensagem "Segundo";
+    - Se o usuário informarVariáveis e Operadores (VO), o programa apresentará a mensagem "Terceiro".
+    Apresente a mensagem em tela.
+    */
+
+    //Entrada
+     const prog = prompt(` Informe qual assusnto mais dificil da materia de programação: Variáveis e Operadores (V), Variáveis e Operadores (O) ou Variáveis e Operadores (VO)`).toUpperCase()
+
+    //Processamento
+    switch (prog) {
+        case "V":
+            document.write(`Primeiro`)
+            break;
+            case "O":
+            document.write(`Segundo`)
+            break;
+            case "VO":
+            document.write(`Terceiro`)
+            break;
+        
+        default:
+            document.write(`Invalido`)
+            break;
+    }
+//feito
+    //Saída
+
+</script>
